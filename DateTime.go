@@ -6,12 +6,10 @@ import (
 )
 
 func timenew() {
-	// Get current time
+
 	currentTime := time.Now()
 
-	// Print current time in default format
-	fmt.Println("Current Time: ", currentTime)
+	fmt.Println("Current Time by Charith: ", currentTime)
 
-	// You can also format the time output if needed
-	fmt.Println("Formatted Time: ", currentTime.Format("2006-01-02 15:04:05"))
+	fmt.Println("Formatted Time by Charith: ", currentTime.Format("2006-01-02 15:04:05"))
 }

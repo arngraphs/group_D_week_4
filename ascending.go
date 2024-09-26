@@ -1,15 +1,14 @@
 package main
 
 import (
-    "fmt"
-    "sort"
+	"fmt"
+	"sort"
 )
 
-func main() {
-    numbers := []int{5, 2, 9, 1, 6, 3}
+func asc() {
+	numbers := []int{5, 2, 9, 1, 6, 3}
 
-    sort.Ints(numbers)
+	sort.Ints(numbers)
 
-    fmt.Println("Numbers in ascending order:", numbers)
+	fmt.Println("Numbers in ascending order: --by Thanooj-500226146", numbers)
 }
-
