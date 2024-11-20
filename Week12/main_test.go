@@ -44,7 +44,7 @@ func TestFileServer(t *testing.T) {
 		}
 
 		body, _ := io.ReadAll(resp.Body)
-		if string(body) != "Hello, World!" {
+		if string(body) != "Group D Test Module" {
 			t.Errorf("Unexpected body content: %s", body)
 		}
 	})
